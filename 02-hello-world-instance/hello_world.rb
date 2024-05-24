@@ -3,11 +3,7 @@ class HelloWorld
     @name = name
   end
 
-  def hello(name = nil)
-    if name
+  def hello(name = "World")
       "Hello, #{name}. My name is #{@name}!"
-    else
-      "Hello, World. My name is #{@name}!"
-    end
   end
 end
