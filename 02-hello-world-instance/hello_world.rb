@@ -3,7 +3,7 @@ class HelloWorld
     @name = name
   end
 
-  def hello(name = "World")
-      "Hello, #{name}. My name is #{@name}!"
+  def hello(greeting_name = "World")
+      "Hello, #{greeting_name}. My name is #{@name}!"
   end
 end
